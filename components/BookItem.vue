@@ -1,6 +1,5 @@
 <!-- Display data of a book with type {title: 'The Name of the Wind', author: 'Patrick Rothfuss', year: 2007},-->
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import type { Book } from '~/appTypes';
 const props = defineProps<{
   book: Book;
